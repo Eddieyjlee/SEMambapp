@@ -121,6 +121,7 @@ the paper. Note in particular that the released checkpoint scores slightly highe
 ---
 
 </details>
+
 ## Inference
 ```bash
 python infer.py \
