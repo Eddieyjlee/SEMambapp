@@ -80,6 +80,10 @@ It was used for the second resolution.
 
 </details>
 
+
+<details>
+<summary>Results</summary>
+
 The tables below report both scores from the paper and retrained model so that the released weights can be compared against
 the paper. Note in particular that the released checkpoint scores slightly higher on intrusive metrics (PESQ and LPS) across different datasets but scores slightly lower than the paper on the URGENT 2025 blind test.
 
@@ -116,7 +120,7 @@ the paper. Note in particular that the released checkpoint scores slightly highe
 |SEMamba++(retrained)|3.472|4.086|3.208|
 ---
 
-
+</details>
 ## Inference
 ```bash
 python infer.py \
